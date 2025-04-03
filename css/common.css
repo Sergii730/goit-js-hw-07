@@ -99,7 +99,9 @@ button {
 /* #region task2 */
 .gallery {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
   max-width: 1440px;
   background-color: #fff;
   gap: 24px;

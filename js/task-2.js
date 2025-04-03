@@ -31,7 +31,7 @@ const elements = images
   .map(
     (image) => `
 <li class="img-card">
-<img class="img-foto" src="${image.url}" alt="${image.alt}/>
+<img class="img-foto" src="${image.url}" alt="${image.alt}">
 </li>
 `
   )
